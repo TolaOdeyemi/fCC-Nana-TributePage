@@ -1,0 +1,78 @@
+body{
+    background-image: url(https://img.freepik.com/free-vector/hand-drawn-minimal-background_23-2148999828.jpg?w=2000);
+    background-size: cover;
+    margin: 0;
+  }
+  #image {
+    height: auto;
+    max-height: 100%;
+    width: 1170;
+    max-width: 100%;
+    margin: auto;
+    display: block;
+  }
+  #title{ 
+  font-family: "Yellowtail", cursive;
+  text-align: center;
+  font-size: 70px;
+  color: #fc0fc0;
+  }
+  figcaption {
+    text-align: center;
+    font-family: 'Karma', serif;
+    color: #c0c0c0;
+  }
+  /*Styles all elements with id of headings*/
+  #headings{
+    font-family: 'Karma', serif;
+    text-transform: uppercase;
+    color:#fc0fc0;
+    font-size: 25px;
+  }
+  /*Gave heading elements a class so the headings would be directly above p border box and in-line with the about heading*/
+  .heading3{
+    position: relative;
+    top: -75px;
+    left: 58px;
+  }
+  .heading4{
+    position: relative;
+    top: -10px;
+    left: 350px;
+  }
+  .heading5{
+    position: relative;
+    top: -15px;
+    left: 250px;
+  }
+  /*Each p element has id so they're styled the same */
+  #paragraph1, #paragraph2,  #paragraph3, #paragraph4{
+    border: 3px solid #ffffff;
+    background-color: #fbaed2;
+    color: #ffffff;
+    text-indent: 10px;
+    text-align: justify;
+    letter-spacing: 3px;
+    font-family: 'Karma', serif;
+    width: 640px;
+  }
+ .style{
+   display: inline-flex;
+   width: 2000;
+  }
+  /*Each div containing p element given classes to fix p border positioning so it sits under the heading*/
+  .acclaim{
+    position: relative;
+    top: 150px;
+    left: -17px;
+  }
+/*Each div containing p element given classes to fix p border positioning so it sits under the heading*/
+.culture{
+    position: relative;
+    top: 150px;
+    left: -150px
+}
+a{
+  text-decoration: none;
+  color: #ffffff;
+}
